@@ -195,7 +195,7 @@ sayHello('jacob'); // hello jacob!
 
 ## Logic / Loops
 
- - if / else if / else
+### `if / else if / else`
 
 ```javascript
 if (2 < 1) {
@@ -217,7 +217,7 @@ if (2 < 1) {
  - `||` "or" connects two conditions. Only one condition or both must be true to return true
 
 
- - for loops
+### `for loops`
 
 this prints each item in an array
 ```javascript
