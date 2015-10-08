@@ -193,4 +193,44 @@ function sayHello(name) {
 sayHello('jacob'); // hello jacob!
 ```
 
+## Logic / Loops
+
+ - if / else if / else
+
+```javascript
+if (2 < 1) {
+  console.log('this won\'t get printed');
+} else if (1 < 2) {
+  console.log(' this will get printed');
+} else {
+  console.log('this happens if all other conditions don\'t');
+}
+```
+
+ - `<` less than
+ - `<=` less than or equal to
+ - `>` greater than
+ - `>=` greater than or equal to
+ - `===` equal to
+ - `!==` not equal to
+ - `&&` "and" connects two conditions. Both conditions must be true for the condition to return true
+ - `||` "or" connects two conditions. Only one condition or both must be true to return true
+
+
+ - for loops
+
+this prints each item in an array
+```javascript
+for (var i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+```
+
+`for` loops have three parts in the parentheses
+`for (runs at start; test whether to stop loop; runs after code inside loop is executed) {}`
+
+so let's break down the traditional for loop.
+ - `var i = 0;` in initializes variable i to be the counter variable
+ - `i < array.length;` the loop will run until i is greater than or equal to the array length
+ - `i++` adds one to the value of `i`
 ## Classes
