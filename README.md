@@ -103,11 +103,26 @@ Arrays can also be initialized with values.
 var array = [1, 2, 'strings too', 1337, 3.14, 'π', [5, 'woah arrays in arrays', []]];
 array[4] // 3.14
 
-array.length // 6
-
-array.push('7th value');
-
 array.length // 7
+
+array.push('8th value');
+
+array.length // 8
+```
+
+When arrays are printed they look like this:
+```javascript
+console.log(array);
+
+// prints as this:
+[ 1,
+  2,
+  'strings too',
+  1337,
+  3.14,
+  'π',
+  [ 5, 'woah arrays in arrays', [] ],
+  '8th value' ]
 ```
 
 ## Objects
@@ -115,7 +130,7 @@ Objects hold key/value pairs.  The key can be any value, but is traditionally a 
 
 ```javascript
 var object = {
-  'key': 'value'
+  key: 'value'
 };
 ```
 
@@ -139,6 +154,43 @@ object.anotherKey = 3.1
 object.bleh = [1, 'hey'];
 ```
 
+Objects can be printed also
+
+```javascript
+console.log(object);
+
+// prints as this
+{ key: 'value',
+  otherKey: 'other value',
+  anotherKey: 3.1,
+  bleh: [ 1, 'hey' ] }
+```
 ## Functions
+
+Functions do stuff.
+
+There's two ways to make functions
+
+```javascript
+function foo () {
+  console.log('fooie!');
+} // notice the semicolon isn't necessary here
+
+var foo = function() {
+  console.log('fooie!');
+};
+
+foo(); // fooie!
+```
+
+Functions take arguments, which are set to their corresponding variable in the argument list at the declaration of the function.
+
+```javascript
+function sayHello(name) {
+  console.log('hello ' + name + '!');
+}
+
+sayHello('jacob'); // hello jacob!
+```
 
 ## Classes
