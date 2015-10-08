@@ -3,7 +3,7 @@
 For fancy documentation with basically the same information, go to: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
 ### Table of Contents  
-|||
+| | |
 |:- | :--------- |
 | 1 | Primitives |
 | 2 | Arrays     |
@@ -214,7 +214,7 @@ if (2 < 1) {
  - `===` equal to
  - `!==` not equal to
  - `&&` "and" connects two conditions. Both conditions must be true for the condition to return true
- - `||` "or" connects two conditions. Only one condition or both must be true to return true
+ - `||` "or" connects two conditions. One or both conditions must be true to return true
 
 
 ### `for loops`
@@ -226,11 +226,14 @@ for (var i = 0; i < array.length; i++) {
 }
 ```
 
-`for` loops have three parts in the parentheses
+`for` loops have three parts in the parentheses  
 `for (runs at start; test whether to stop loop; runs after code inside loop is executed) {}`
 
 so let's break down the traditional for loop.
  - `var i = 0;` in initializes variable i to be the counter variable
  - `i < array.length;` the loop will run until i is greater than or equal to the array length
  - `i++` adds one to the value of `i`
+
 ## Classes
+
+Classes are like blueprints
