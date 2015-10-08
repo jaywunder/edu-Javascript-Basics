@@ -69,22 +69,75 @@ Strings hold text. They're used to hold data that isn't a number. Strings are de
 var string = "the cat in the hat";
 ```
 
-Strings can be "indexed" by using square braces after the variable name. Indexing a string returns the value at that position in the string.
+Strings can be "indexed" by using square braces with a number inside `[n]` after the variable name. Indexing a string returns the value at that position in the string.
 
 WARNING: Indexing starts counting at 0
 
 ```javascript
 var string = "the cat in the hat";
-console.log(string[0]); // t
-console.log(string[5]); // a
+string[0]; // t
+string[5]; // a
 ```
 
 The operators `+` and `+=` can also be used for strings.
 
 ## Arrays
-Arrays are used to hold more than one value.
+Arrays are used to hold more than one value. Arrays can also be indexed using `[n]`. Their index also starts at 0.  
+
+Put items in arrays with the `push` function.
+
+```javascript
+var array = [];
+
+array.push(1);
+array.push('another');
+
+array.length; // 2
+
+array[0]; // 1
+array[1]; // 'another'
+```
+Arrays can also be initialized with values.
+
+```javascript
+var array = [1, 2, 'strings too', 1337, 3.14, 'π', [5, 'woah arrays in arrays', []]];
+array[4] // 3.14
+
+array.length // 6
+
+array.push('7th value');
+
+array.length // 7
+```
 
 ## Objects
+Objects hold key/value pairs.  The key can be any value, but is traditionally a string or a number.
+
+```javascript
+var object = {
+  'key': 'value'
+};
+```
+
+Objects can also be indexed, but use the key instead of a number as the index.
+
+```javascript
+object['key']; // 'value'
+```
+
+Object's value can also be accessed with "dot notation"
+
+```javascript
+object.key; // 'value'
+```
+
+Values can also be set with indexing and dot notation
+
+```javascript
+object['otherKey'] = 'other value';
+object.anotherKey = 3.1
+object.bleh = [1, 'hey'];
+```
 
 ## Functions
 
