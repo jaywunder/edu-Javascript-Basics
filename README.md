@@ -236,6 +236,23 @@ so let's break down the traditional for loop.
  - `i < array.length;` the loop will run until i is greater than or equal to the array length
  - `i++` adds one to the value of `i`
 
+To break out of a for loop, use the keyword `break`.
+
+```javascript
+
+array = [1, 2, 3, 'bad', 5];
+
+for (var i = 0; i < array.length; i++) {
+  if (array[i] === 'bad') {
+    break; // get out of there!
+  } else {
+    console.log(array[i]);
+  }
+}
+
+// this loop doesn't print 'bad' or 5
+```
+
 ## Classes
 
 (here's the complex concept)
