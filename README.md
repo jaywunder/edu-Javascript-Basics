@@ -238,4 +238,70 @@ so let's break down the traditional for loop.
 
 ## Classes
 
-Classes are like blueprints
+(here's the complex concept)
+
+Classes are like blueprints that take parameters. You create different things with classes, and can tweak the class with the parameters it takes
+
+Class syntax:
+```javascript
+// we're making an animal class!
+class Animal {
+  constructor(type, color, name, age) {
+
+    // notice the variable `this`?
+    // it's a reference to the object or function or class that it's inside.
+
+    this.type = type;
+    this.color = color;
+    this.name = name;
+    this.age = age;
+  }
+
+  sayHello() {
+    console.log('hi! I\'m' + this.name + '. I\'m a ' + this.type);
+  }
+}
+
+var bobo = new Animal('bear', 'brown', 'bobo', 3);
+bobo.sayHello(); // hi! I'm bobo. I'm a bear
+```
+
+Here we've made an Animal. It's a bear, and it's named bobo.  But what if we want to make another bear?  We'd have to type all that stuff again.
+
+What if we want to give only bears a certain function? We want all bears to have a "clawAttack" function.  With classes that can be easy.  We just have to `extend` the Animal class with a Bear class.
+
+```javascript
+// the Bear class is going to have all the properties of the Animal class
+class Bear extends Animal{
+  constructor(color, name, age) {
+    // the `super` method calls the parent class' constructor with the parameters given to super
+    super('bear', color, name, age);
+  }
+  clawAttack(target) {
+    console.log(this.name + ' swiped ' + target.name + ' with their claws!');
+  }
+}
+
+var bozo = new Bear('black', 'bozo', 5);
+bozo.sayHello(); // hi! I'm bozo. I'm a bear
+bozo.clawAttack(bobo); // bozo swiped bobo with their claws!
+```
+
+Poor bobo is a 'bear', but he isn't a Bear. So he can't fight back!
+
+But this is why classes are so important. Because they're a great tool to prevent the programmer from needing to repeat themselves.  
+
+Classes can inherit each other as much as you want. So we can even make a BrownBear class that inherits from the Bear class.
+
+
+```javascript
+class BrownBear extends Bear {
+  constructor(name, age) {
+    super('brown', name, age);
+  }
+
+  beCool() {
+    console.log('fun fact: brown bears are cool');
+  }
+}
+```
