@@ -4,13 +4,14 @@ For fancy documentation with basically the same information, go to: https://deve
 
 ### Table of Contents  
 
-| | |
-|:- | :--------- |
-| 1 | Primitives |
-| 2 | Arrays     |
-| 3 | Objects    |
-| 4 | Functions  |
-| 5 | Classes    |
+ |  |   
+ --:|:----------:  
+  1 | Primitives  
+  2 | Arrays     
+  3 | Objects    
+  4 | Functions  
+  5 | Logic / Loops     
+  6 | Classes
 
 ## Primitives
 
