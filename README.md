@@ -3,6 +3,7 @@
 For fancy documentation with basically the same information, go to: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
 ### Table of Contents  
+
 | | |
 |:- | :--------- |
 | 1 | Primitives |
