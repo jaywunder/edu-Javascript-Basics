@@ -18,7 +18,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
 Primitives are the most basic data types.  They cover any type of data one could want to store.
 
-### (Boolean)[#boolean]
+### [Boolean](#boolean)
 
 A boolean is a variable that's either `true` or `false`
 
@@ -27,7 +27,7 @@ var yes = true;
 var no = false;
 ```
 
-### (Null)[#null]
+### [Null](#null)
 
 Null is a value to represent nothing.  When a variable is set to null it has the value "null".
 ```javascript
@@ -35,7 +35,7 @@ var nothing = null;
 console.log(nothing); // null
 ```
 
-### (Undefined)[#undefined]
+### [Undefined](#undefined)
 
 Undefined is when a variable doesn't have a value. Variables are set to be undefined when they're not given a value at creation.
 
@@ -51,7 +51,7 @@ console.log(stillNoValue); // undefined
 ```
 But there's no reason to do that, so don't...
 
-### (Number)[#number]
+### [Number](#number)
 
 Numbers are the data type for any number.  Javascript doesn't distinguish between integers and numbers with decimals (floats).
 
@@ -63,7 +63,7 @@ var another = 1.337;
 
 Numbers can be added `+`, subtracted `-`, multiplied `*`, and divided `/`
 
-### (String)[#string]
+### [String](#string)
 
 Strings hold text. They're used to hold data that isn't a number. Strings are denoted using a single or double quote `''` `""`. Strings can also be denoted with back ticks
 ` `` `
@@ -84,7 +84,7 @@ string[5]; // a
 
 The operators `+` and `+=` can also be used for strings.
 
-## (Arrays)[#arrays]
+## [Arrays](#arrays)
 Arrays are used to hold more than one value. Arrays can also be indexed using `[n]`. Their index also starts at 0.  
 
 Put items in arrays with the `push` function.
@@ -128,7 +128,7 @@ console.log(array);
   '8th value' ]
 ```
 
-## (Objects)[#objects]
+## [Objects](#objects)
 Objects hold key/value pairs.  The key can be any value, but is traditionally a string or a number.
 
 ```javascript
@@ -168,7 +168,7 @@ console.log(object);
   anotherKey: 3.1,
   bleh: [ 1, 'hey' ] }
 ```
-## (Functions)[#functions]
+## [Functions](#functions)
 
 Functions do stuff.
 
@@ -196,9 +196,9 @@ function sayHello(name) {
 sayHello('jacob'); // hello jacob!
 ```
 
-## (Logic / Loops)[#logic-loops]
+## [Logic / Loops](#logic-loops)
 
-### (`if / else if / else`)[#if-else-if-else]
+### [`if / else if / else`](#if-else-if-else)
 
 ```javascript
 if (2 < 1) {
@@ -220,7 +220,7 @@ if (2 < 1) {
  - `||` "or" connects two conditions. One or both conditions must be true to return true
 
 
-### (`for` loops)[#for-loops]
+### [`for` loops](#for-loops)
 
 this prints each item in an array
 ```javascript
@@ -282,7 +282,7 @@ for (var key in object) {
 
 ```
 
-## (Classes)[#classes]
+## [Classes](#classes)
 
 (here's the complex concept)
 
