@@ -14,7 +14,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
   5 | Logic / Loops     
   6 | Classes
 
-## (Primitives)[#primitives]
+## (#Primitives)
 
 Primitives are the most basic data types.  They cover any type of data one could want to store.
 
