@@ -7,7 +7,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
  |  |   
  --:|:----------:  
-  1 | Primitives  
+  1 | [Primitives](https://github.com/jaywunder/edu-Javascript-Basics#primitives)  
   2 | Arrays     
   3 | Objects    
   4 | Functions  
