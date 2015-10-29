@@ -8,13 +8,13 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
  |  |   
  --:|:----------:  
   1 | [Primitives](https://github.com/jaywunder/edu-Javascript-Basics#primitives)  
-  2 | Arrays     
-  3 | Objects    
-  4 | Functions  
-  5 | Logic / Loops     
-  6 | Classes
+  2 | [Arrays](https://github.com/jaywunder/edu-Javascript-Basics#arrays)     
+  3 | [Objects](https://github.com/jaywunder/edu-Javascript-Basics#objects)    
+  4 | [Functions](https://github.com/jaywunder/edu-Javascript-Basics#functions)  
+  5 | [Logic / Loops](https://github.com/jaywunder/edu-Javascript-Basics#logic--loops)     
+  6 | [Classes](https://github.com/jaywunder/edu-Javascript-Basics#classes)
 
-## [primitives](#primitives)
+## [Primitives](#primitives)
 
 Primitives are the most basic data types.  They cover any type of data one could want to store.
 
